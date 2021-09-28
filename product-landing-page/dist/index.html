@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Product Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header id="header">
+    <img src="https://res.cloudinary.com/john-mantas/image/upload/v1539714880/fcc/landing-page/oneplus-logo.png" alt="Oneplus"
+      id="header-img" class="op-logo">
+    <span class="header-deco"></span>
+    <nav class="main-nav" id="nav-bar">
+      <div class="nav-menu">
+        <i class="im im-menu-dot-v nav-menu__toggle" id="menu_toggle"></i>
+        <ul class="nav-menu__linklist" id="menu_linklist">
+          <li role="button" id="menu_close"><i class="im im-x-mark"></i></li>
+          <li class="nav-link-item" role="button"><a href="#features" class="nav-link">Features</a></li>
+          <li class="nav-link-item" role="button"><a href="#video_section" class="nav-link">Videos</a></li>
+          <li class="nav-link-item" role="button"><a href="#subscribe" class="nav-link">Subscribe</a></li>
+        </ul>
+      </div>
+      <button class="button--cta">Buy now</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero grid--half">
+      <div class="hero__text">
+        <h1 class="h-text__title">OnePlus 6</h1>
+        <span class="h-text__subtitle">The Speed You Need.</span>
+        <span class="h-text__price">From $529</span>
+      </div>
+      <div class="hero__img">
+        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1539756099/fcc/landing-page/oneplus6.png" alt="Oneplus 6">
+      </div>
+    </section>
+
+    <section id="features">
+      <h2 class="features__header">Best Features</h2>
+      <div class="features__item">
+        <i class="im im-mobile" aria-hidden="true"></i>
+        <div class="f-item__title">Optic AMOLED</div>
+        <div class="f-item__sub-title">6.28" Display</div>
+      </div>
+      <div class="features__item">
+        <i class="im im-dashboard" aria-hidden="true"></i>
+        <div class="f-item__title">Snapdragon™ 845</div>
+        <div class="f-item__sub-title">Qualcomm®</div>
+      </div>
+      <div class="features__item">
+        <i class="im im-photo-camera" aria-hidden="true"></i>
+        <div class="f-item__title">16 + 20 MP</div>
+        <div class="f-item__sub-title">Dual Camera</div>
+      </div>
+      <div class="features__item">
+        <i class="im im-database" aria-hidden="true"></i>
+        <div class="f-item__title">Up to 8 GB RAM</div>
+        <div class="f-item__sub-title">256 GB Storage</div>
+      </div>
+    </section>
+
+    <section id="video_section">
+      <h2 class="video__header">Videos</h2>
+      <div class="grid--half">
+        <div class="video__item">
+          <iframe width="100%" height="632px" src="https://www.youtube.com/embed/GcXUi1Xj9i8?controls=0" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen id="video"></iframe>
+        </div>
+        <div class="video__item">
+          <iframe width="100%" height="632px" src="https://www.youtube.com/embed/IQSYW2aiVvk?controls=0" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="subscribe">
+      <h2 class="subscribe__header">Subscribe Now</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <p>Always be the first to know.</p>
+        <label for="email" class="visually-hidden">E-mail address</label>
+        <input type="email" placeholder="Type your e-mail" name="email" id="email">
+        <input type="submit" value="Subscribe" id="submit" name="submit" class="button--cta">
+      </form>
+    </section>
+  </main>
+  <footer class="footer__nav">
+    <div class="f-nav__item">
+      <img src="https://res.cloudinary.com/john-mantas/image/upload/v1539714880/fcc/landing-page/oneplus-logo.png" alt="Oneplus"
+        class="op-logo">
+      <p>This is a demo page made by Devkumar Pawar for the freeCodeCamp project "Build a Product Landing Page".</p>
+    </div>
+    <ul class="f-nav__item">
+      <h3 class="f-item__header">Phones</h3>
+      <li><a href="https://www.oneplus.com" target="_blank">OnePlus 6</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">OnePlus 5T</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">OnePlus 5</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">OnePlus 3T</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">OnePlus 3</a></li>
+    </ul>
+    <ul class="f-nav__item">
+      <h3 class="f-item__header">Support</h3>
+      <li><a href="https://www.oneplus.com" target="_blank">Shopping FAQs</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">User Manuals</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">Software Upgrade</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">Repair Service</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">Contact Us</a></li>
+    </ul>
+    <ul class="f-nav__item">
+      <h3 class="f-item__header">Company</h3>
+      <li><a href="https://www.oneplus.com" target="_blank">About OnePlus</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">Community</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">Careers</a></li>
+      <li><a href="https://www.oneplus.com" target="_blank">Press</a></li>
+    </ul>
+  </footer>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- partial -->
+  
+</body>
+</html>
